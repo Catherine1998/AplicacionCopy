@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AplicacionCopy</string>
+    <string name="Msj_Bienvenida">0</string>
+    <string name="btn_incrementar">Incrementar</string>
+    <string name="btn_Mensaje">Mostrar Mensaje Emergente</string>
+    <string name="btn_Siguiente">Siguiente</string>
+    <string name="Msj_SegundaP">Aquí tienes un número random</string>
+    <string name="num_R">0</string>
+    <string name="btn_Regresar">Regresar</string>
+</resources>
