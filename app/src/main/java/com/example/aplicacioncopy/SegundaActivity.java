@@ -24,18 +24,13 @@ public class SegundaActivity extends AppCompatActivity {
     public void IrPaginaPrincial (View view){
         Intent a = new Intent(this, MainActivity.class);
         startActivity(a);
-
     }
 
     public void NumeroRandom(){
-
-
         try{
             Random numR = new Random();
             Integer num =  numR.nextInt(10);
             TextoNumeroR.setText(num.toString());
-
-
         }catch (Exception e){
             Toast.makeText(this,"Algo salio mal", Toast.LENGTH_LONG).show();
         }
